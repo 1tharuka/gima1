@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Bootcamp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap" rel="stylesheet">
+  <style>
+    h1{
+        text-align:left
+    }
+
+   ul{
+     text-align: left;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      -webkit-text-fill-color: antiquewhite;
+      border-radius: 10px;
+      justify-content: space-around;
+      align-items: left;
+      background-color: #1a1919;
+      padding: 10px 20px;
+      box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.nav__icons{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.nav-links {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      margin-right: 280px;
+      a{
+        color: #ffffff;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #1586ff;
+      }
+    }
+.list_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+    .btn-book {
+      border-radius: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 10px;
+      cursor: pointer;
+    }
+    .nav-links_a {
+      list-style: none;
+      display: flex;
+      
+    }
+
+    /* Bootcamp Section */
+    .bootcamp {
+      
+      padding: 2rem 1rem;
+    }
+
+    .bootcamp h1 {
+      .alumni-sans-inline-one-regular {
+  font-family: "Alumni Sans Inline One", serif;
+  font-weight: 5000;
+  font-style: normal;
+  font-weight: bold;
+}
+}
+      /* margin-bottom: 1rem;
+      font-size: 2rem;
+      font-weight: bold;
+    } */
+
+    .bootcamp p {
+      margin-bottom: 2rem;
+      color: #666;
+    }
+
+    .bootcamp-cards {
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      flex-wrap: wrap;
+      border-radius: 15px;
+
+    }
+
+    .card {
+      width: 200px;
+      padding: 1rem;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .card h3 {
+      margin-bottom: 1rem;
+    }
+
+    .card button {
+      background: #000000;
+      color: inherit;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 50px;
+    }
+
+    .card.blue {
+      background: #024950;
+      box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 20px;
+    }
+    .card.blue:hover{
+        background-color: #1d0bc5;
+      }
+
+    .card.green {
+      box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background: #0FA4AF;
+      border-radius: 20px;
+
+    }
+    .card.green:hover{
+        background-color: #0bb60b;
+      }
+
+
+    .card.red {
+      box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background: #024950;
+      border-radius: 20px;
+
+    }
+   .card.red:hover{
+        background-color: #db0b0b;
+      }
+
+    .card.purple {
+      box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background: #0FA4AF;
+      border-radius: 20px;
+
+    }
+    .card.purple:hover{
+        background-color: #a908d1;
+      }
+    .shadow{
+      box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 20px;
+    }
+
+   /* footer */
+.footer__main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+  background-color: #086c75;
+  padding: 10px 10px;
+  justify-content:space-around;
+}
+.footer__logo-content{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.link__line{
+  width: 450px;
+  height: 1px;
+  background-color: black;
+}
+.button{
+  background: #696969;
+     align-content: right;
+      border-radius: 50px;
+      cursor: pointer;
+}
+
+.footer__contact{
+  flex-direction: column;
+  display: flex;
+  margin-right: 250px;
+}
+.footer__link{
+  
+  list-style: none;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  a{
+        color: #000000;
+        text-decoration: none;
+      }
+      a:hover{
+        color: #ffffff;
+      }
+}
+.bta{
+  cursor: pointer;
+}
+.fallow__logo{
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  margin-right: 95px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+.fallow__Payment{
+  /* margin-bottom: 200; */
+  display: flex;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Payment{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footer__copy{
+  margin-left: 200px;
+  padding: 10px 10px;
+}
+.button{
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 8px 0 rgba(4, 31, 44, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+        <image src="image ex.png" width="60" height="60">
+        <ul class="nav-links">
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Shop</a></li>
+            <li class="list_img">
+              <a href="#">Training</a>
+              <image src="./down-arrow.png" alt="clickable image" width="25" height="25">
+            </li>
+            
+            <li class="list_img">
+              <a href="#">Rentals</a>
+              <image src="./down-arrow.png" width="25" height="25"></image>
+            </li> 
+            
+            <li><a href="#">League</a></li>
+        </ul>
+        <div class="nav__icons">
+          <button class="btn-book">Book Now</button>
+            <image src="image one.png" width="30" height="30" >
+            <image src="image two.png" width="30" height="30" >
+            <image src="image three.png" width="30" height="30" >
+        </div>
+
+    </nav>
+  </header>
+
+  <!-- Bootcamp Section -->
+  <main>
+    <section class="bootcamp">
+      <h1>SELECT A BOOT CAMP TYPE</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam unde cumque voluptatibus vero quasi officiis facilis exercitationem. Cumque voluptatibus id itaque similique, aut sequi porro inventore magni temporibus non.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quam unde cumque voluptatibus vero quasi officiis facilis exercitationem. Cumque voluptatibus id itaque similique, aut sequi porro inventore magni temporibus non.</p>
+      <br> <br>
+      <div class="bootcamp-cards">
+        <div class="card blue">
+          <h3>CRICKET BOOTCAMP</h3>
+          <button>See More</button>
+          <br><br>
+          <image src="./cricket image.png" width="200" height="200"class="shadow">
+        </div>
+        <div class="card green">
+          <h3>RUGBY BOOTCAMP</h3>
+          <button>See More</button>
+          <br><br>
+          <image src="./rugby image.png" width="200" height="200"class="shadow">
+        </div>
+        <div class="card red">
+          <h3>SOCCER BOOTCAMP</h3>
+          <button>See More</button>
+          <br><br>
+          <image src="./soccer image.png" width="200" height="200"class="shadow">
+        </div>
+        <div class="card purple">
+          <h3>HOCKEY BOOTCAMP</h3>
+          <button>See More</button>
+          <br><br>
+         <image src="./hockey image.png" width="200" height="200" class="shadow"> 
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer__main">
+      <div class="logo">
+        <image src="image ex.png" width="120" height="150">
+        </div>
+      <!-- <div class="footer__logo-content"> -->
+ 
+      <div class="footer__contact">
+        <h3>INDOOR SPORTS FACILTIES</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur <br>
+          adipisicing elit.
+        </p>
+        <div class="bta"><button type="submit" class="button">See more</button></div>
+      </div>
+     <div>
+      <div>
+        <ul class="footer__link">
+          <li><a href="#">Rents</a></li>
+          <li><a href="#">Traning</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Privcy & tems</a></li>
+        </ul>
+        <div class="link__line">
+      </div>
+     </div>
+     <div class="fallow__logo">
+      <p>Fallow us to :</p> 
+      <div class="logo">
+      
+          <image src="facebook.png" width="30" height="30">
+          <image src="instagram.png" width="30" height="30">
+          <image src="twitter.png" width="30" height="30">
+          </div>
+        </div>
+        <div class="play__payment">
+          <div class="fallow__Payment">
+            <p>Payment methode :</p> 
+            <div class="Payment">
+            
+                <image src="./card.png" width="30" height="30">
+                <image src="./cash-payment.png" width="30" height="30">
+                <image src="./atm-card.png" width="30" height="30">
+                  <image src="./visa.png" width="30" height="30">
+                    <image src="./paypal.png" width="30" height="30">
+                </div>
+              </div>
+      </div>
+  </footer>
+</body>
+</html>
